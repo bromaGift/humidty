@@ -1,0 +1,45 @@
+html, body {
+    margin: 0;
+    height: 100%;
+} 
+body {
+    background-image: linear-gradient(180deg, rgb(183, 235, 248) 50%, white 50%);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+p{
+    text-align: center;
+    color: rgb(222, 248, 248);
+}
+h3{
+    text-align: center;
+    color: rgba(247, 238, 238, 0.979);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+}
+button{
+  border-radius: 20px;
+  width: 80%;
+  padding: 12px;
+  color: blue;
+  align-content: center;
+}
+.btn{
+    text-align: center;
+    margin-top: 90px;
+    padding: 45px;
+}
+.tint {
+    text-align: center;
+    margin:90px;
+    padding: 40px;
+    color: aliceblue;
+}
+.container{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRnrhHamOT14vgaTRm8-fXbnazV5u5MnudPOQXTAxtOqof7cPqd);
+    position: absolute;
+    top: 50px;
+    left:500px;
+    width: 30%;
+    border-radius: 5px;
+}
