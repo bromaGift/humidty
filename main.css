@@ -1,10 +1,13 @@
+@viewport {
+    width: device-width;
+    zoom: 1.0;
+}
 html, body {
     margin: 0;
     height: 100%;
 } 
 body {
-    background-image: linear-gradient(180deg, rgb(183, 235, 248) 50%, white 50%);
-    background-size: cover;
+    background-image: linear-gradient(180deg, rgb(209, 243, 252) 50%, white 50%);
     background-repeat: no-repeat;
 }
 p{
@@ -18,7 +21,8 @@ h3{
     font-size: 24px;
 }
 button{
-  border-radius: 20px;
+  background-color: white;
+  border-radius: 26px;
   width: 80%;
   padding: 12px;
   color: blue;
@@ -37,9 +41,11 @@ button{
 }
 .container{
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRnrhHamOT14vgaTRm8-fXbnazV5u5MnudPOQXTAxtOqof7cPqd);
-    position: absolute;
-    top: 50px;
-    left:500px;
-    width: 30%;
-    border-radius: 5px;
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    top: 4%;
+    margin-left: auto; 
+    margin-right: auto; 
+    width:400px; 
 }
